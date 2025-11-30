@@ -125,10 +125,10 @@ export default function App() {
         <Section id="Команда" title="Команда">
           <div className="prose prose-invert max-w-none">
             <ul>
-              <li><strong>Улугбек -> Бизнес аналитик и исследователь</strong> — опыт в финтехе, исследования в области агрономии.</li>
-              <li><strong>Шахриер -> ML-инженер</strong> — scikit-learn, XGBoost/CatBoost/LightGBM, PyTorch, NLP</li>
-              <li><strong>Бобур -> Backend-разработчик</strong> — архитектура API, FastAPI, PostgreSQL, SecOps.</li>
-              <li><strong>Элбек -> Frontend-разработчик</strong> — интерфейсы, дизайн, UX, React + Vite + Tailwind.</li>
+              <li><strong>Улугбек -&gt; Бизнес аналитик и исследователь</strong> — опыт в финтехе, исследования в области агрономии.</li>
+              <li><strong>Шахриер -&gt; ML-инженер</strong> — scikit-learn, XGBoost/CatBoost/LightGBM, PyTorch, NLP</li>
+              <li><strong>Бобур -&gt; Backend-разработчик</strong> — архитектура API, FastAPI, PostgreSQL, SecOps.</li>
+              <li><strong>Элбек -&gt; Frontend-разработчик</strong> — интерфейсы, дизайн, UX, React + Vite + Tailwind.</li>
             </ul>
 
             <p>
@@ -356,15 +356,14 @@ export default function App() {
 
             <p><strong>Machine Learning</strong></p>
             <ul>
-              <li>CatBoost / Gradient Boosting</li>
+              <li>CatBoost / Gradient Boosting (важна интепретируемая модель)</li>
               <li>Временные ряды</li>
-              <li>Explainable AI</li>
             </ul>
 
             <h3>7. Пользовательский сценарий</h3>
 
             <ol>
-              <li>Фермер вводит координаты или рисует полигон.</li>
+              <li>Вводит вводит координаты или выбирает через встроенную в приложение карту.</li>
               <li>Backend получает NDVI через GEE.</li>
               <li>Модель определяет тип культуры.</li>
               <li>Климатический модуль вычисляет риски.</li>
