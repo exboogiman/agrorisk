@@ -7,8 +7,20 @@ module.exports = {
         surface: '#05060a',
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'Segoe UI', 'Roboto'],
+        sans: ['"Manrope"', 'sans-serif'],
       },
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            fontFamily: theme('fontFamily.sans').join(', '),
+          },
+        },
+        invert: {
+          css: {
+            fontFamily: theme('fontFamily.sans').join(', '),
+          },
+        },
+      }),
     },
   },
   plugins: [require('@tailwindcss/typography')],
